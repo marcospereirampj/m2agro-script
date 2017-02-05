@@ -2,7 +2,7 @@
 
 import psycopg2
 
-conn = psycopg2.connect("dbname=m2agro_db user=marcospereira")
+conn = psycopg2.connect("dbname=m2agro_db user=postgres")
 cur = conn.cursor()
 
 cur.execute("create table matrix_m2agro ()")
